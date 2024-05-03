@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 922px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text__container {
+    width: 540px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
+    letter-spacing: 0.25px;
+    font-size: 36px;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 16px;  
+}
+
+.text__description {
+    width: 540px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    font-weight: normal;
+    color: #979797;
+    text-align: center;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 560px;
+    width: 1110px;
+    position: relative;
+    gap: 30px;
+    margin-top: 64px;
+}
+
+.grid__item {
+    background-color: white;
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    padding: 30px;   
+    box-shadow: 0px 11px 13px rgba(0, 0, 0, 0.1);
+}
+
+.grid__item__1 {
+    grid-column: 2;
+    grid-row: 2;
+    border-top: 8px solid red;
+}
+
+.grid__item__2 {
+    position: absolute; 
+    top: calc(50% - 125px); 
+    border-top: 8px solid #00C8C8;
+}
+
+.grid__item__3 {
+    position: absolute; 
+    top: calc(50% - 125px);
+    right: 0; 
+    border-top: 8px solid #549EF2;
+}
+
+.grid__item__4 {
+    grid-column: 2;
+    grid-row: 3;
+    border-top: 8px solid #FDBF00;
+}
+
+.grid__container p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    color: #979797;
+    margin-top: 8px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(234, 12%, 34%);
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
+
+.grid__item__1 img {
+    position: absolute;
+    top: 190px;
+    left: 630px;
+}
+
+.grid__item__2 img {
+   position: absolute;
+   top: 154px;
+   left: 254px;
+}
+
+.grid__item__3 img {
+    position: absolute;
+    top: 154px;
+    left: 254px;
+}
+
+.grid__item__4 img {
+    position: absolute;
+    top: 465px;
+    left: 630px;
+}
+
+
+@media screen and (max-width: 767.98px) {
+
+    html, body {
+        height: 1350px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .text__container {
+        width: 311px;
+        height: 161px;
+    }
+
+    .title__container {
+        width: 100%;
+        height: 70px;
+        letter-spacing: 0.17px;
+        font-size: 24px;
+        margin-bottom: 16px;  
+    }
+    
+    .text__description {
+        width: 311px;
+        height: 75px;
+    }
+
+    .grid__container {
+        grid-template-columns: 1fr; /* Changez en une seule colonne */
+        grid-template-rows: auto; /* Supprimez les lignes explicitement définies */
+        height: auto; /* Ajustez la hauteur automatiquement */
+        width: 100%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        gap: 30px;
+    }
+
+    .grid__item {
+        background-color: white;
+        border-radius: 8px; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 311px;
+        height: 222px;   
+        box-shadow: 0px 11px 13px rgba(0, 0, 0, 0.1);
+    }
+
+    .grid__item__1,
+    .grid__item__4 {
+        grid-column: 1; /* Placez les éléments 1 et 4 dans la première colonne */
+    }
+
+    .grid__item__2 {
+        position: static; /* Désactivez le positionnement absolu */
+    }
+
+    .grid__item__3 {
+        position: static; /* Désactivez le positionnement absolu */
+    }
+
+    img {
+        width: 57px;
+        height: 57px;
+    }
+    
+    .grid__item__1 img {
+        top: 390px;
+        left: 225px;
+    }
+    
+    .grid__item__2 img {
+       top: 137px;
+       left: 225px;
+    }
+    
+    .grid__item__3 img {
+        top: 895px;
+        left: 225px;
+    }
+    
+    .grid__item__4 img {
+       top: 640px;
+       left: 225px;
+    }
+
+
+}
+
+
+

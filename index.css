@@ -94,7 +94,7 @@ html, body {
     position: absolute; 
     top: calc(52% - 125px); 
     border-top: 4px solid #00C8C8;
-    padding: 40px 30px;
+    padding: 30px;
 }
 
 .grid__item__3 {
@@ -102,7 +102,7 @@ html, body {
     top: calc(52% - 125px);
     right: 0; 
     border-top: 4px solid #549EF2;
-    padding: 40px 30px;
+    padding: 30px;
 }
 
 .grid__item__4 {
@@ -140,13 +140,13 @@ img {
 
 .grid__item__2 img {
    position: absolute;
-   top: 160px;
+   top: 150px;
    left: 254px;
 }
 
 .grid__item__3 img {
     position: absolute;
-    top: 160px;
+    top: 150px;
     left: 254px;
 }
 

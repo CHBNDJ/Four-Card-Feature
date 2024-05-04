@@ -38,7 +38,7 @@ html, body {
     letter-spacing: 0.25px;
     font-size: 36px;
     color: hsl(234, 12%, 34%);
-    margin-bottom: 16px;  
+    margin-bottom: 10px;  
 }
 
 .title__bold {
@@ -64,7 +64,7 @@ html, body {
     width: 1110px;
     position: relative;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .grid__item {

@@ -41,6 +41,10 @@ html, body {
     margin-bottom: 10px;  
 }
 
+.title__light {
+    font-weight: 200;
+}
+
 .title__bold {
     font-weight: 600;
 }
@@ -64,7 +68,7 @@ html, body {
     width: 1110px;
     position: relative;
     gap: 30px;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .grid__item {

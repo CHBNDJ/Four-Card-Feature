@@ -184,6 +184,7 @@ img {
     .text__description {
         width: 311px;
         height: 75px;
+        margin-top: 5px;
     }
 
     .grid__container {
@@ -193,6 +194,7 @@ img {
         width: 100%;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         gap: 30px;
+        margin-top: 64px;
     }
 
     .grid__item {

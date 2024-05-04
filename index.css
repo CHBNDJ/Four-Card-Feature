@@ -38,7 +38,6 @@ html, body {
     letter-spacing: 0.25px;
     font-size: 36px;
     color: hsl(234, 12%, 34%);
-    margin-bottom: 12px;  
 }
 
 .title__light {
@@ -58,6 +57,7 @@ html, body {
     font-weight: normal;
     color: #979797;
     text-align: center;
+    margin-top: 8px;
 }
 
 .grid__container {

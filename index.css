@@ -46,6 +46,7 @@ html, body {
 
 .title__bold {
     font-weight: 600;
+    margin-top: -3px;
 }
 
 .text__description {
@@ -92,7 +93,7 @@ html, body {
     position: absolute; 
     top: calc(50% - 125px); 
     border-top: 4px solid #00C8C8;
-    padding: 30px;
+    padding: 40px 30px;
 }
 
 .grid__item__3 {
@@ -100,7 +101,7 @@ html, body {
     top: calc(50% - 125px);
     right: 0; 
     border-top: 4px solid #549EF2;
-    padding: 30px;
+    padding: 40px 30px;
 }
 
 .grid__item__4 {

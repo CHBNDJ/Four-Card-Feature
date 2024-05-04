@@ -92,14 +92,14 @@ html, body {
 
 .grid__item__2 {
     position: absolute; 
-    top: calc(50% - 125px); 
+    top: calc(52% - 125px); 
     border-top: 4px solid #00C8C8;
     padding: 40px 30px;
 }
 
 .grid__item__3 {
     position: absolute; 
-    top: calc(50% - 125px);
+    top: calc(52% - 125px);
     right: 0; 
     border-top: 4px solid #549EF2;
     padding: 40px 30px;

@@ -41,6 +41,10 @@ html, body {
     margin-bottom: 16px;  
 }
 
+.title__bold {
+    font-weight: 600;
+}
+
 .text__description {
     width: 540px;
     height: 50px;
@@ -60,7 +64,7 @@ html, body {
     width: 1110px;
     position: relative;
     gap: 30px;
-    margin-top: 64px;
+    margin-top: 50px;
 }
 
 .grid__item {
@@ -77,26 +81,26 @@ html, body {
 .grid__item__1 {
     grid-column: 2;
     grid-row: 2;
-    border-top: 8px solid red;
+    border-top: 6px solid red;
 }
 
 .grid__item__2 {
     position: absolute; 
     top: calc(50% - 125px); 
-    border-top: 8px solid #00C8C8;
+    border-top: 6px solid #00C8C8;
 }
 
 .grid__item__3 {
     position: absolute; 
     top: calc(50% - 125px);
     right: 0; 
-    border-top: 8px solid #549EF2;
+    border-top: 6px solid #549EF2;
 }
 
 .grid__item__4 {
     grid-column: 2;
     grid-row: 3;
-    border-top: 8px solid #FDBF00;
+    border-top: 6px solid #FDBF00;
 }
 
 .grid__container p {
